@@ -11,3 +11,8 @@ In this test the number of questions where options 1 is correct is 16 and 38, 32
 ## Response API
 Since most of the data was given in API only like Accuracy, Correct question etc. So here I spent some time in getting the details of the question and things related to those questions.
 
+The distriution of Correct and Incorrect number of questions for the latest test is below
+![Comparison of Correct and Wrong Questions](images/correct_vs_wrong_bar.png)
+
+The distribution of the questions which are correct and incorrect acorss the topics and difficulty level and be understood by the below graph
+![Comparison of Correct and Wrong Questions](images\topic_and_difficulty_comp.png)

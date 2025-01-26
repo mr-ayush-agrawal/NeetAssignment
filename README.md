@@ -36,3 +36,8 @@ Now when we have the list of question_ids which are correct and incorrect we can
 
 **We are getting following insights**
 - Which question were correct and were incorrect, making a bar chart to viz the frequncy of the question
+- Comparing the topics with the amount of questions correct and were wrong
+- Comparing the Difficulty level wise the amount of questions correct and were wrong
+
+To make the vizualization we need the data in long format, which is obtained using `melt` funciton.
+
