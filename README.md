@@ -41,3 +41,15 @@ Now when we have the list of question_ids which are correct and incorrect we can
 
 To make the vizualization we need the data in long format, which is obtained using `melt` funciton.
 
+#### Previos Test Data
+
+This data is similar to the Response API data. We can analyse it in similar way and get the insight of the weak and strong side of the student.
+
+First we are getting the hstorical data from the api and fetching the required data from the list of responses. Which are *topic, accuracy, final_score, daily_date* for the analysis and visualization purpose.
+
+Cerated a DataFrame and typecasted the data which makes it easier to visualize. We have reversed the order of the test as the top most is the latest test, which will be giving opposite answer if not reversed.
+
+Now making a plot where each topic has a plot and (using subplot), and each attempt of the test is plotted in a chart to see the progress and improvement in the topic. <br>
+The bar Chart shows the score and line chart show the accuracy in a test.
+
+Which show the trend and point of focus of the student

@@ -15,4 +15,15 @@ The distriution of Correct and Incorrect number of questions for the latest test
 ![Comparison of Correct and Wrong Questions](images/correct_vs_wrong_bar.png)
 
 The distribution of the questions which are correct and incorrect acorss the topics and difficulty level and be understood by the below graph
-![Comparison of Correct and Wrong Questions](images\topic_and_difficulty_comp.png)
+![Comparison of Correct and Wrong Questions](images/topic_and_difficulty_comp.png)
+
+## Historical Responses API
+We can create and get the insight of the historical data in similar way. By which we can get the strong and weak side of the student.
+
+Here below I have created a topic wise trend of the student how the score and accuracy has changed with the attempts in the trend.
+
+![Comparison of Correct and Wrong Questions](images/topicwise_score.png)
+
+It can be seen that the accuracy of the student has increased in the tests where multiple attemps have been given.
+
+The student is advised to practice more and attempt more test where there is low accuracy. 
